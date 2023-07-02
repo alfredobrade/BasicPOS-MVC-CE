@@ -1,0 +1,2 @@
+si no tiene autorizacion para ver los diagramas en sql server
+ALTER AUTHORIZATION ON DATABASE::<DATABASE> TO sa;
