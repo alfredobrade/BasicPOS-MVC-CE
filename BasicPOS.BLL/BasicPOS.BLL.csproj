@@ -11,4 +11,9 @@
     <Folder Include="ServiceInterfaces\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BasicPOS.DAL\BasicPOS.DAL.csproj" />
+    <ProjectReference Include="..\BasicPOS.Models\BasicPOS.Models.csproj" />
+  </ItemGroup>
+
 </Project>

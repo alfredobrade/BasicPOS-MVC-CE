@@ -1,2 +1,18 @@
 si no tiene autorizacion para ver los diagramas en sql server
 ALTER AUTHORIZATION ON DATABASE::<DATABASE> TO sa;
+
+
+
+project references
+
+DAL <= Entity
+
+BLL <= DAL
+BLL <= Entity
+
+IOC <= BLL
+IOC <= DAL
+
+WEB <= BLL
+WEB <= ENtity
+WEB <= IOC

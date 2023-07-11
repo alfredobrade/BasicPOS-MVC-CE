@@ -1,7 +1,15 @@
+using BasicPOS.DAL.Context;
+using BasicPOS.IOC;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+
+//builder.Services.AddSqlServer<BasicPosPruebaContext>(builder.Configuration.GetConnectionString("SqlServerConnection"));
+
+builder.Services.InyectarDependencia(builder.Configuration); //para inyectar las dependencias desde otra clase
 
 var app = builder.Build();
 

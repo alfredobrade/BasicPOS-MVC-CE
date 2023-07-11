@@ -2,7 +2,7 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/BasicoPOS_MVC/bin/Debug/net6.0
+/BasicoPOS_MVC/bin
 /BasicoPOS_MVC/obj
 /BasicoPOS_MVC/appsettings.json
 /BasicoPOS_MVC/appsettings.Development.json
@@ -10,7 +10,7 @@
 /BasicPOS.DAL/obj
 /BasicPOS.IOC/obj
 /BasicPOS.Models/obj
-/BasicPOS.BLL/bin/Debug/net6.0
-/BasicPOS.DAL/bin/Debug/net6.0
-/BasicPOS.IOC/bin/Debug/net6.0
-/BasicPOS.Models/bin/Debug/net6.0
+/BasicPOS.BLL/bin
+/BasicPOS.DAL/bin
+/BasicPOS.IOC/bin
+/BasicPOS.Models/bin
