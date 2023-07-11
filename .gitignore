@@ -10,3 +10,7 @@
 /BasicPOS.DAL/obj
 /BasicPOS.IOC/obj
 /BasicPOS.Models/obj
+/BasicPOS.BLL/bin/Debug/net6.0
+/BasicPOS.DAL/bin/Debug/net6.0
+/BasicPOS.IOC/bin/Debug/net6.0
+/BasicPOS.Models/bin/Debug/net6.0
