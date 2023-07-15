@@ -8,10 +8,11 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using BasicPOS.DAL.Context;
 using Microsoft.EntityFrameworkCore;
-//using BasicPOS.DAL.IRepository;
-//using BasicPOS.DAL.Repository;
-//using BasicPOS.BLL.ServiceInterfaces;
-//using BasicPOS.BLL.Services;
+using BasicPOS.DAL.GenericRepository;
+using BasicPOS.DAL.IRepository;
+using BasicPOS.DAL.Repository;
+using BasicPOS.BLL.ServiceInterfaces;
+using BasicPOS.BLL.Services;
 
 
 namespace BasicPOS.IOC
@@ -24,6 +25,17 @@ namespace BasicPOS.IOC
             {
                 options.UseSqlServer(configuration.GetConnectionString("SqlServerConnection"));
             });
+
+            services.AddTransient(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+           
+            services.AddScoped<IVentaRepository, VentaRepository>();
+            services.AddScoped<ICorreoService, CorreoService>();
+            services.AddScoped<IFirebaseService, FirebaseService>();
+            services.AddScoped<IUtilidadesService, UtilidadesService>();
+            services.AddScoped<IRoleService, RoleService>();
+            services.AddScoped<IUsuarioService, UsuarioService>();
+
+
         }
     }
 }

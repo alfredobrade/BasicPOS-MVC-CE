@@ -5,6 +5,13 @@ namespace BasicPOS.Models;
 
 public partial class User
 {
+    //al vago tambien le hizo el constructor
+    public User()
+    {
+        Sales = new HashSet<Sale>();
+    }
+
+    //esto nomas me hizo el scaffolding
     public int IdUser { get; set; }
 
     public string? UserName { get; set; }

@@ -22,6 +22,10 @@ namespace BasicoPOS_MVC.Controllers
         {
             return View();
         }
+        public IActionResult Perfil()
+        {
+            return View();
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

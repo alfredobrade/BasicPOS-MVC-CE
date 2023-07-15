@@ -1,0 +1,10 @@
+
+codigo9000@gmail.com
+codigo9000
+
+gs://  mitiendaonline-2c9fa.appspot.com
+
+AIzaSyAdC6dqS8eg5qTxs29gqD9daiqNuHf29cE
+
+FirebaseAuthentication.net 3.7.2 - porque el ultimo no tiene FirebaseConfig
+FirebaseStorage.net 1.0.3

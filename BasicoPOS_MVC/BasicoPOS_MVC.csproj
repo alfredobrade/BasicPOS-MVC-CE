@@ -11,11 +11,10 @@
     <Folder Include="Utilidades\Extensiones\" />
     <Folder Include="Utilidades\LibreriaPDF\" />
     <Folder Include="Utilidades\ViewComponents\" />
-    <Folder Include="Utilidades\Response\" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.14" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.15" />
   </ItemGroup>
 
   <ItemGroup>

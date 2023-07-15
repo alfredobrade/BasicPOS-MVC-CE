@@ -20,7 +20,7 @@ public partial class BasicPosPruebaContext : DbContext
 
     public virtual DbSet<Category> Categories { get; set; }
 
-    public virtual DbSet<Configuration> Configurations { get; set; }
+    public virtual DbSet<Configuracion> Configurations { get; set; }
 
     public virtual DbSet<Menu> Menus { get; set; }
 
@@ -91,7 +91,7 @@ public partial class BasicPosPruebaContext : DbContext
                 .HasColumnType("datetime");
         });
 
-        modelBuilder.Entity<Configuration>(entity =>
+        modelBuilder.Entity<Configuracion>(entity =>
         {
             entity
                 .HasNoKey()
